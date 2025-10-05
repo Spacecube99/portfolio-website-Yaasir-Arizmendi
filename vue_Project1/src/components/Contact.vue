@@ -11,7 +11,7 @@
     </div>
 </template>
 
-<style>
+<style scoped>
 
     .column {
         flex: 1;

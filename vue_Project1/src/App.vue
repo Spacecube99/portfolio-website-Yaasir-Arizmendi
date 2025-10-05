@@ -7,8 +7,8 @@ import HelloWorld from './components/HelloWorld.vue'
   <header>
 
     <div class="wrapper">
-      <HelloWorld msg="Yaasir Arizmendi" />
-      <HelloWorld msg="UX Designer & Front-End Developer" />
+      <HelloWorld msg="Yaasir Arizmendi
+      UX Designer & Front-End Developer" />
       <h3>
         To learn more about the services I can provide, click on the links below.
       </h3>
@@ -62,12 +62,4 @@ nav a {
 nav a:first-of-type {
   border: 0;
 }
-
-h3 {
-  display: flex;
-  justify-content: center;
-  color: black;
-  padding-right: 2rem;
-}
-
 </style>

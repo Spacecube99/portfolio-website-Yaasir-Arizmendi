@@ -10,7 +10,7 @@
     </div>
 </template>
 
-<style>
+<style scoped>
     .listContainer {
         display: flex;
         flex-direction: column;

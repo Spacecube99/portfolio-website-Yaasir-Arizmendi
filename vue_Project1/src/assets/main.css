@@ -6,8 +6,8 @@
 body {
   display: flex;
   justify-content: center;
-  background: linear-gradient(tan);
-  height: 100vh;
+  background: linear-gradient(tan, white);
+  height: 150vh;
   width: 100vw;
 }
 
@@ -16,12 +16,31 @@ h1 {
   text-decoration: none;
 }
 
-h3 {
+.greetings {
+  text-align: center;
   display: flex;
   justify-content: center;
-  padding-right: 2rem;
 }
+
+h3 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: black;
+  }
 
 .message {
   color: darkslategray;
+}
+
+a {
+  color: navy;
+}
+
+a:link {
+  color: indigo;
+}
+
+a:hover {
+  color: white;
 }
